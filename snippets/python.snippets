@@ -143,3 +143,7 @@ snippet init
 	def __init__(self, ${1:arg}):
 		self.$1 = $1
 		${2}
+
+snippet super
+	super(${1:subcls}, self).${2:__init__}(${3})
+	${4}
